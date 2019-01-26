@@ -1,3 +1,4 @@
+# Image to ASCII art converter
 Image to ASCII art converter with support for consol and in code usage.
 
 ## In code usage
@@ -18,3 +19,10 @@ In terminal type `image_to_ASCII.py` with obligatory arguments:
 And with optional arguments:
 * `--columns` number of columns that outputed ASCII art will has. By default is set as a horizontal number of pixels of an image.
 * `--scale` scale of a font, default is set to 0.43
+
+## How to run
+1. Go to the file directory
+2. Make sure that the image that you want to converte is in the same folder
+3. Run `python image_to_ASCII.py -i INPUT_FILENAME -o OUTPUT_FILENAME` in command line
+4. Wait 1-2 seconds, depends on the resolution of an image
+5. You have your ASCII Art!
